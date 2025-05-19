@@ -1,111 +1,103 @@
-#PanaceaAI MVP
+# PanaceaAI MVP
 
-  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/)  
+[![Streamlit](https://img.shields.io/badge/streamlit-v1.0-orange.svg)](https://streamlit.io/)
 
-##Overview
+---
 
-PanaceaAI MVP is a prototype that transforms plain English problem statements into interactive optimization environments. Built with Streamlit, PuLP, and a plug-and-play NLP module, it lets users explore real-time solutions to complex challenges—without writing a single line of code.
+## 📖 Overview
 
-##Features
+**PanaceaAI MVP** is a lightweight prototype that transforms plain-English problem statements into live, interactive optimization environments. Built with Streamlit, PuLP, and a plug-and-play NLP module, it enables users to explore complex challenges without writing a single line of code.
 
-Natural Language Input: Describe problems in plain English.
+---
 
-Automated Parsing: Converts text into model specifications (variables, objectives, constraints).
+## ✨ Features
 
-Interactive Controls: Sliders to adjust variable bounds and parameters.
+- **Natural Language Input**  
+  Describe your problem in plain English.
 
-Optimization Engine: Uses PuLP for quick linear programming solutions.
+- **Automated Parsing**  
+  Converts text into model specs (variables, objectives, constraints).
 
-Live Visualization: Charts and JSON outputs update in real time.
+- **Interactive Controls**  
+  Sliders to tweak variable bounds and parameters.
 
-Modular Architecture: Easily extendable for new domains and solver engines.
+- **Optimization Engine**  
+  Leverages PuLP for quick linear programming solutions.
 
+- **Live Visualization**  
+  Charts and JSON outputs update in real time.
 
-##Demo
+- **Modular Architecture**  
+  Easily extendable to new domains and solver engines.
 
+---
 
+## 🎬 Demo
 
-###Getting Started
+![PanaceaAI Demo](docs/demo.gif)
 
-Prerequisites
+---
 
-Python 3.7 or higher
+## 🚀 Getting Started
 
-pip
+### 1. Prerequisites
 
+- Python 3.7 or higher  
+- pip
 
-###Installation
+### 2. Installation
 
-1. Clone the repo
-
+```bash
 git clone https://github.com/aj8-dev/panacea_ai_mvp.git
 cd panacea_ai_mvp
-
-
-2. Install dependencies
-
 pip install -r requirements.txt
-
-
-3. Run the app
-
 streamlit run app.py
+```
 
+### 3. Usage
 
-4. Open in browser Visit http://localhost:8501 to interact with the prototype.
+1. Enter your problem statement in the text area.  
+2. Click **Parse & Build Model** to generate model specs.  
+3. Use the sliders to adjust parameters.  
+4. Click **Solve Optimization** to view results and live charts.
 
+> **Example Input:**  
+> “Design a solar microgrid for a village of 500 people under a $10k budget with at least 95% reliability.”
 
+---
 
-###Usage
+## 🗂 Project Structure
 
-1. Enter a real-world problem in the text area.
-
-
-2. Click Parse & Build Model to generate model specs.
-
-
-3. Adjust parameters using sliders.
-
-
-4. Click Solve Optimization to view results and charts.
-
-
-
-###Example
-
-"Design a solar microgrid for a village of 500 people under a $10k budget with at least 95% reliability."
-
-##Project Structure
-
+```
 panacea_ai_mvp/
 ├── app.py           # Streamlit frontend
 ├── nlp_parser.py    # Text-to-model parser (placeholder)
 ├── optim.py         # Optimization logic using PuLP
 ├── requirements.txt # Python dependencies
-├── README.md        # Project documentation
+├── README.md        # This documentation
 └── LICENSE          # MIT License
-
-##Next Steps
-
-Integrate GPT-4 API for dynamic parsing
-
-Add additional solver backends (stochastic, nonlinear)
-
-Expand domains: logistics, finance, healthcare
-
-Build user authentication and collaboration features
-
-
-##License
-
-This project is licensed under the MIT License. See the LICENSE
-
-> Repo: https://github.com/aj8-dev/panacea_ai_mvp file for details.
-
-
-
+```
 
 ---
 
-Prototype by Ayush Jha, Creator of PanaceaAI
+## 🔮 Next Steps
 
+- Integrate GPT-4 API for dynamic parsing  
+- Add more solver backends (stochastic, nonlinear)  
+- Expand to logistics, finance, healthcare domains  
+- Build multi-user collaboration features
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
+
+> **Repo:** https://github.com/aj8-dev/panacea_ai_mvp
+
+---
+
+*Prototype by Ayush Jha, Creator of PanaceaAI*
