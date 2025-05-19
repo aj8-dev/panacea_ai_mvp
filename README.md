@@ -34,11 +34,6 @@
 
 ---
 
-## 🎬 Demo
-
-![PanaceaAI Demo](docs/demo.gif)
-
----
 
 ## 🚀 Getting Started
 
