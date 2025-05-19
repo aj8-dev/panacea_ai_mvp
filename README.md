@@ -95,4 +95,4 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-*Prototype by Ayush Jha, Creator of PanaceaAI*
+*Developed by Ayush Jha*
