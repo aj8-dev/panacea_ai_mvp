@@ -1,12 +1,12 @@
-PanaceaAI MVP
+#PanaceaAI MVP
 
   
 
-Overview
+##Overview
 
 PanaceaAI MVP is a prototype that transforms plain English problem statements into interactive optimization environments. Built with Streamlit, PuLP, and a plug-and-play NLP module, it lets users explore real-time solutions to complex challenges—without writing a single line of code.
 
-Features
+##Features
 
 Natural Language Input: Describe problems in plain English.
 
@@ -21,11 +21,11 @@ Live Visualization: Charts and JSON outputs update in real time.
 Modular Architecture: Easily extendable for new domains and solver engines.
 
 
-Demo
+##Demo
 
 
 
-Getting Started
+###Getting Started
 
 Prerequisites
 
@@ -34,7 +34,7 @@ Python 3.7 or higher
 pip
 
 
-Installation
+###Installation
 
 1. Clone the repo
 
@@ -56,7 +56,7 @@ streamlit run app.py
 
 
 
-Usage
+###Usage
 
 1. Enter a real-world problem in the text area.
 
@@ -71,11 +71,11 @@ Usage
 
 
 
-Example
+###Example
 
 "Design a solar microgrid for a village of 500 people under a $10k budget with at least 95% reliability."
 
-Project Structure
+##Project Structure
 
 panacea_ai_mvp/
 ├── app.py           # Streamlit frontend
@@ -85,7 +85,7 @@ panacea_ai_mvp/
 ├── README.md        # Project documentation
 └── LICENSE          # MIT License
 
-Next Steps
+##Next Steps
 
 Integrate GPT-4 API for dynamic parsing
 
@@ -96,7 +96,7 @@ Expand domains: logistics, finance, healthcare
 Build user authentication and collaboration features
 
 
-License
+##License
 
 This project is licensed under the MIT License. See the LICENSE
 
